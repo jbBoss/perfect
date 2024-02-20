@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif; 
+}
+.ln{outline: 2px solid rgb(0, 153, 255);}
+.noMargin{
+    margin: 0%;
+}
+.head{
+    text-align: center;
+}
+.logo{
+    max-width:  90vw;
+}
+h4{
+font-weight: bolder;
+text-align: center;
+font-size: 40px;
+text-decoration: underline;
+}
+.content{
+    display: flex;
+    justify-content:space-around
+}
+.content li{
+    font-size: x-large;
+}
+.gallery img{
+    /* outline: 2px solid black; */
+    padding: 2vw;
+    max-width: 32vw;   
+    text-align: center;
+}
+.gallery{
+    text-align: center;
+}
+/* ------------------------------------------------ */
+.slideshow img{
+ border-radius: 10px;
+}
+/*---------------------------------------------  */
+.sico{
+    height: 20px;
+  }
+  .socials > a{
+    text-decoration: none;
+    color: white;
+  }
+  .foot {
+    color: white;
+  }
+  .whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    display: flex;
+    background-color: white;
+    height: 80px;
+    border-radius: 5rem;
+    width: 150px;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    text-align: center;
+  }
+  .blank{
+    height: 100px;
+  }
+  .aboutus {
+    width: 85%;
+  }
+  .aboutus-txt>h2{
+    font-weight: bolde;
+    font-size: 3rem;
+  }
+  .aboutus-txt>p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-family:'Courier New', Courier, monospace sans-serif ;
+    font-style: italic;
+    font-size: 1.2rem;
+    }
+    .smcards img{
+      /* outline: 1px solid red; */
+      /* background-color: black; */
+      width: 7.5rem;
+      height: 7.5rem;
+    }
+  .dsign img{
+    width: 10vw;
+  }
+  p{
+    font-size: larger;
+  }
