@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     background-color: black;
     color: aliceblue;
     font-family: 'Nunito', sans-serif; 
@@ -28,7 +29,7 @@ h3{
     justify-content:space-around
 }
 .content li{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .gallery img{
     /* outline: 2px solid black; */
@@ -89,7 +90,7 @@ h3{
   }
   .whatsapp{
     position: fixed;
-    right: 20px;
+    right: 7vw;
     bottom: 30px;
     display: flex;
     background-color: white;
