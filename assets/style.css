@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(15, 14, 11);
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif; 
+}
+/* .ln{outline: 2px solid rgb(0, 153, 255);} */
+.noMargin{
+    margin: 0%;
+}
+.head{
+    text-align: center;
+}
+.logo{
+    max-width:  90vw;
+}
+h4{
+font-weight: bolder;
+text-align: center;
+font-size: 40px;
+text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content:space-around
+}
+.content li{
+    font-size: 1.3rem;
+}
+.gallery img{
+    /* outline: 2px solid black; */
+    padding: 2vw;
+    max-width: 32vw;   
+    text-align: center;
+    border-radius: 40px;
+}
+.gallery{
+    text-align: center;
+    align-items: center;
+}
+/* ------------------------------------------------ */
+.slideshow img{
+ border-radius: 10px;
+}
+.poster{
+    text-align: center;
+}
+.poster img{
+    width: 97%;
+    height: auto;
+    z-index: -1;
+
+}
+.text1{
+    position:relative;
+    left:10vw;
+    bottom: 55vw;
+    height: 0px;
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bolder;
+    z-index: 1;
+    width: 320px;
+}
+.text2{
+    position:relative;
+    left:42vw;
+    bottom: 43vw;
+    width: 600px;
+    height: 0;
+    text-align: left;
+    font-size: 1.7vw;
+    font-weight: bolder;
+    z-index: 1;
+}
+/*---------------------------------------------  */
+.sico{
+    height: 20px;
+  }
+  .socials > a{
+    text-decoration: none;
+    color: white;
+  }
+  .foot {
+    color: white;
+  }
+  .whatsapp{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    border-radius: 5rem;
+    width: 130px;
+    align-items: center;
+    color: black;
+    text-align: center;
+  }
+.wacon{
+    position: fixed;
+    left: 5%;
+    bottom: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    z-index: 3;
+
+
+}
+  .aboutus {
+    width: 85%;
+  }
+  .aboutus-txt>h2{
+    font-weight: bolde;
+    font-size: 3rem;
+  }
+  .aboutus-txt>p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-family:'Courier New', Courier, monospace sans-serif ;
+    font-style: italic;
+    font-size: 1.2rem;
+    }
+    .smcards img{
+      /* outline: 1px solid red; */
+      /* background-color: black; */
+      width: 7.5rem;
+      height: 7.5rem;
+    }
+  .dsign img{
+    width: 10vw;
+  }
+  p{
+    font-size: larger;
+  }
